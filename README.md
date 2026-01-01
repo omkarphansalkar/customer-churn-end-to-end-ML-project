@@ -39,3 +39,5 @@ pip install -r requirements.txt
 ```shell
 uvicorn app.main:app --reload --port 8080
 ```
+
+Once you see in logs `Application startup complete.` go to http://localhost:8080/ui/customer_churn_ui
